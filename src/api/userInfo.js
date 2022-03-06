@@ -7,7 +7,7 @@ export default {
   getPageList(page, limit, searchObj) {
     return request({
       url: `${api_name}/${page}/${limit}`,
-      method: "get",
+      method: 'get',
       params: searchObj
     });
   },

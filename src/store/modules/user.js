@@ -48,7 +48,6 @@ const user = {
     //   })
     // },
 
-
     GetInfo({ commit }) {
       const data = {
         'roles': [
@@ -83,7 +82,6 @@ const user = {
     //   })
     // },
 
-
     // 登出
     LogOut({ commit, state }) {
       return new Promise((resolve, reject) => {
@@ -110,7 +108,6 @@ const user = {
 
     // 前端 登出
     FedLogOut({ commit }) {
-
       // return new Promise(resolve => {
       commit('SET_TOKEN', '')
       removeToken()
